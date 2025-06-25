@@ -1,6 +1,6 @@
 # Projeto de Machine Learning: Agrupamento de Clientes com K-Means e DBSCAN
 
-Este projeto aplica algoritmos de *clustering* (agrupamento não supervisionado) para segmentar clientes com base em características como idade, renda anual e pontuação de gastos. Utilizamos os algoritmos *K-Means* e *DBSCAN, com visualização dos resultados por meio de **PCA (Análise de Componentes Principais)*.
+Este projeto aplica algoritmos de clustering (agrupamento não supervisionado) para segmentar clientes com base em características como idade, renda anual e pontuação de gastos. Utilizamos os algoritmos K-Means e DBSCAN, com visualização dos resultados por meio de PCA (Análise de Componentes Principais)*.
 
 ---
 
