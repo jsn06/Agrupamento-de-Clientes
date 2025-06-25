@@ -21,26 +21,26 @@ A segmentação de clientes permite:
 
 ## 🔍 Metodologia
 
-1. *Geração de Dados Sintéticos*:
+1. Geração de Dados Sintéticos:
    - Dataset com 200 clientes contendo:
      - Idade
      - Renda Anual
      - Pontuação de Gastos
 
-2. *Pré-processamento*:
+2. Pré-processamento:
    - Padronização com StandardScaler
    - Redução de dimensionalidade com PCA para visualização
 
-3. *Modelos Aplicados*:
-   - *K-Means*:
+3. Modelos Aplicados:
+   - K-Means:
      - Número de clusters: 4
      - Avaliação com Silhouette Score
-   - *DBSCAN*:
+   - DBSCAN:
      - Parâmetros: eps=1.2, min_samples=4
      - Detecção de outliers
      - Avaliação com Silhouette Score
 
-4. *Visualização*:
+4. Visualização:
    - Gráficos comparativos dos clusters gerados por cada algoritmo
 
 ---
@@ -66,13 +66,13 @@ A segmentação de clientes permite:
 
 ## 📈 Resultados
 
-- *K-Means*:
+- K-Means:
   - Formou 4 clusters bem definidos
   - Silhouette Score alto
-- *DBSCAN*:
+- DBSCAN:
   - Detectou 3 clusters e pontos de ruído
   - Silhouette Score razoável
-- *PCA*:
+- PCA:
   - Permitiu visualização clara dos agrupamentos em 2D
 
 ---
